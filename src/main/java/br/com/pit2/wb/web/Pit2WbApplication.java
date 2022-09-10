@@ -1,4 +1,4 @@
-package br.com.pit2.wb;
+package br.com.pit2.wb.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
