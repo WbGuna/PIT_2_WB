@@ -63,7 +63,7 @@ public class FuncionarioController {
 		}
 		
 		funcionarioService.salvar(funcionario);
-		attr.addFlashAttribute("success", "Funcion�rio inserido com sucesso.");
+		attr.addFlashAttribute("success", "Funcionário inserido com sucesso.");
 		return "redirect:/funcionarios/cadastrar";
 	}
 	
@@ -81,14 +81,14 @@ public class FuncionarioController {
 		}
 		
 		funcionarioService.editar(funcionario);
-		attr.addFlashAttribute("success", "Funcion�rio editado com sucesso.");
+		attr.addFlashAttribute("success", "Funcionário editado com sucesso.");
 		return "redirect:/funcionarios/cadastrar";
 	}	
 	
 	@GetMapping("/excluir/{id}")
 	public String excluir(@PathVariable("id") Long id, RedirectAttributes attr) {
 		funcionarioService.excluir(id);
-		attr.addFlashAttribute("success", "Funcion�rio removido com sucesso.");
+		attr.addFlashAttribute("success", "Funcionário removido com sucesso.");
 		return "redirect:/funcionarios/listar";
 	}	
 	
