@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html layout:decorate="~{layout}">
+
+<body>
+		
+	<section class="layout-content" layout:fragment="corpo">	
+		<nav class="navbar navbar-expand-md bg-light">
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active mt-2">
+						<i class="oi oi-caret-right"></i>
+						<span>Informacao:</span>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="container">
+			<div id="list-home" class="row">
+				<div class="col-4">
+					<div class="list-group" id="list-tab" role="tablist">
+						<a class="list-group-item list-group-item-action active"
+							id="list-spring-boot-list" data-toggle="list" href="#spring-boot"
+							role="tab" aria-controls="spring-boot">Sobre</a> <a
+							class="list-group-item list-group-item-action" id="list-sts-list"
+							data-toggle="list" href="#sts" role="tab" aria-controls="sts">FrontEnd
+							</a> <a class="list-group-item list-group-item-action"
+							id="list-thymeleaf-list" data-toggle="list" href="#thymeleaf"
+							role="tab" aria-controls="thymeleaf">BackEnd</a> <a
+							class="list-group-item list-group-item-action"
+							id="list-webjars-list" data-toggle="list" href="#webjars"
+							role="tab" aria-controls="webjars">Utilizacao</a> <a
+							class="list-group-item list-group-item-action"
+							id="list-hibernate-list" data-toggle="list" href="#hibernate"
+							role="tab" aria-controls="hibernate">Proposta</a> <a
+							class="list-group-item list-group-item-action"
+							id="list-bootstrap-list" data-toggle="list" href="#bootstrap"
+							role="tab" aria-controls="bootstrap">Melhorias</a>
+					</div>
+				</div>
+				<div class="col-8">
+					<div class="tab-content" id="nav-tabContent">
+						<div class="tab-pane fade show active" id="spring-boot"
+							role="tabpanel" aria-labelledby="list-spring-boot-list">
+							<a href="https://projects.spring.io/spring-boot/">Sobre: </a>
+							esta aplica&#231;&#227;o foi desenvolvida com a finalidade de atender 
+							o desafio da atividade PIT-2, do curso de ci&#234;ncias da computa&#231;&#227o 
+							da universidade Cruzeiro do sul. Desejo aqui apresentar nesta pagina 
+							home todos os esclarecimentos poss&#236;veis e julgados necess&#225;rios para 
+							uma melhor utiliza&#231;&#227;o e compreens&#227;o desta aplica&#231;&#227;o.
+						</div>
+						<div class="tab-pane fade" id="sts" role="tabpanel"
+							aria-labelledby="list-sts-list">
+							O <a href="https://spring.io/tools">FrontEnd</a> foi um desafio 
+							para mim, pois tive que juntar varias tecnologias, tais 
+							como WebJars, Bootstrap, Thymeleaf, CSS, HTML e JavaScript. 
+							Isso realmente foi muito bom para conseguir obter mais conhecimento, 
+							e praticar todas as tecnologias que foram ensinadas no curso e as que 
+							tive o prazer de estudar para concluir esta atividade.
+							O FrontEnd faz toda a parte visual desta aplica&#231;&#227;o, espero que gostem!							
+						</div>
+						<div class="tab-pane fade" id="thymeleaf" role="tabpanel"
+							aria-labelledby="list-thymeleaf-list">
+							<a href="http://www.thymeleaf.org/">BackEnd</a> para mim e a 
+							parte mais empolgante, realmente me familiarizo com ela, esta 
+							parte e tudo que o usu&#225;rio n&#227;o v&#234;, e como funciona, e como 
+							tudo acontece. As tecnologias utilizadas foram Spring Boot, 
+							Spring Tool Suite, Hibernate ORM, Java e Orienta&#231;&#227;o a objetos. 
+							Os desafios foram v&#225;rios e empolgantes. A parte de banco de dados 
+							utilizei o Mysql e as IDE&#180;(s) utilizadas foram o Eclipse IDE, o Dbeaver 
+							para pesquisa e visualiza&#231;&#245;es do banco de dados. Espero que seja 
+							prazerosa a experiencia de utiliza&#231;&#227;o desta aplica&#231;&#227;o.
+						</div>
+						<div class="tab-pane fade" id="webjars" role="tabpanel"
+							aria-labelledby="list-webjars-list">
+							<a href="https://www.webjars.org/">Utilizacao</a> , bom para 
+							utilizar esta aplica&#231;&#227;o, voc&#234; deve visualizar ao lado esquerdo 
+							da sua tela onde estar&#225; um pequeno menu, com as op&#231;&#245;es de 
+							cadastrar os departamentos, cargos e seus funcion&#225;rios, assim 
+							como tamb&#233;m visualizar e fazer altera&#231;&#227;es na parte de listar 
+							estes cadastros.
+						</div>
+						<div class="tab-pane fade" id="hibernate" role="tabpanel"
+							aria-labelledby="list-hibernate-list">
+							<a href="http://hibernate.org/orm/">Proposta</a> , bom nossa 
+							proposta com essa aplica&#231;&#227;o, foi inicialmente fornecer um controle 
+							de departamentos, com cargos e funcion&#225;rios, assim como demostrar 
+							toda parte de comunica&#231;&#227;o com o usu&#225;rio durante o uso da aplica&#231;&#227;o, 
+							com informa&#231;&#245;es e respostas das acoes escolhidas. Tivemos a inten&#231;&#227;o 
+							de facilitar o controle de funcion&#225;rios dentro de uma empresa de pequeno, 
+							ou m&#233;dio porte.
+						</div>
+						<div class="tab-pane fade" id="bootstrap" role="tabpanel"
+							aria-labelledby="list-bootstrap-list">
+							<a href="https://getbootstrap.com/">Melhorias</a> primeiramente queremos 
+							corrigir a parte dos acentos, pois eles est&#227;o apresentando erro na pagina, 
+							segundo pretendemos criar mais 4 sub menus para cadastro e visualiza&#231;&#227;o de Marca, 
+							Produto, Fornecedor e Cliente tamb&#233;m.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>		
+</body>
+</html>
